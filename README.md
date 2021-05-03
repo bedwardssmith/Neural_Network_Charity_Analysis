@@ -61,7 +61,7 @@
 <li>In this model hidden layers were reduced to two with nodes being 90 and 40 respectively.  Additionally, activation was changed to sigmoid for all layers including the output layer as it is this activation that had provided the highest accuracy score in the previous models.  Epochs remained at 70. </li>
 <li>The above changes resulted in an accuracy of 79.16% a slight increase from the previous models.</li>
 </ul>
-<img src="https://github.com/bedwardssmith/Neural_Network_Charity_Analysis/blob/main/Images/Optimization_4.png"
+<img src="https://github.com/bedwardssmith/Neural_Network_Charity_Analysis/blob/main/Images/Optimization_4.png">
 <h2>Summary</h2>
 <p>By changing the optimization to Sigmoid and by including the “Name” as a variable I was able to develop a model with an accuracy above 75%.  Based on all of the models created it is obvious that the inclusion of “Name” as a variable had a greater impact on accuracy than the number of layers, number of nodes or activation type used.  Although an accuracy of 79% was achieved using this model it is likely that using a supervised learning model such as RandomForest would have resulted in accuracy scores similar to the first four models used.  The advantage to using a supervised model such as RandomForest is the ease of coding and the length of time to run making it preferable over deep learning models in many cases.</p>
 
